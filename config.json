@@ -1,0 +1,166 @@
+{
+    "token": "",
+    "prefix": "!",
+    "modroles": [
+        "Medewerker"
+    ],
+    "needsPermission": [
+        "KICK_MEMBERS",
+        "BAN_MEMBERS",
+        "ADMINISTRATOR",
+        "MANAGE_CHANNELS",
+        "MANAGE_GUILD",
+        "ADD_REACTIONS",
+        "VIEW_CHANNEL",
+        "VIEW_CHANNEL",
+        "VIEW_CHANNEL",
+        "CONNECT",
+        "SPEAK",
+        "MUTE_MEMBERS",
+        "MOVE_MEMBERS",
+        "MANAGE_ROLES",
+        "SEND_MESSAGES"
+    ],
+    "authors": [],
+    "messagelog": [],
+    "muted": [],
+    "privechannels": 0,
+    "prices": [
+        {
+            "name": "Dirt 1GB",
+            "description": "Aanbevolen slots: **10**",
+            "price": "€0,80"
+        },
+        {
+            "name": "Grass 2GB",
+            "description": "Aanbevolen slots: **15**",
+            "price": "€1,60"
+        },
+        {
+            "name": "Stone 3GB",
+            "description": "Aanbevolen slots: **25**",
+            "price": "€2,40"
+        },
+        {
+            "name": "Iron 4GB",
+            "description": "Aanbevolen slots: **30**",
+            "price": "€3,20"
+        },
+        {
+            "name": "Gold 6GB",
+            "description": "Aanbevolen slots: **40**",
+            "price": "€4,80"
+        },
+        {
+            "name": "Diamond 8GB",
+            "description": "Aanbevolen slots: **60**",
+            "price": "€6,40"
+        },
+        {
+            "name": "Emerald custom",
+            "description": "Aanbevolen slots: **custom**",
+            "price": "€ custom"
+        },
+        {
+            "name": "Bungee 512MB",
+            "description": "Aanbevolen slots: **-**",
+            "price": "€0,50"
+        },
+        {
+            "name": "WebHosting",
+            "description": "De webhosting wordt geleverd door onze partner [VysixHosting](https://vysix.nl)",
+            "price": "Vanaf €0,69"
+        },
+        {
+            "name": "Teamspeak 3",
+            "description": "Binnenkort zullen wij ook Teamspeak servers verkopen.",
+            "price": "undefined"
+        }
+    ],
+    "commands": [
+        {
+            "name": "help",
+            "description": "Laat een lijst zien met de commando's waar de gebruiker toegang tot heeft.",
+            "usage": "```!help [naam commando]```",
+            "isAdminCommand": false
+        },
+        {
+            "name": "prijzen",
+            "description": "Laat een lijst zien met alle prijzen.",
+            "usage": "```!prijzen [naam pakket]```",
+            "isAdminCommand": false
+        },
+        {
+            "name": "prive",
+            "description": "Maakt een prive chat aan met alle admins zodat u rustig zonder andere personen uw vragen kan stellen.",
+            "usage": "```!prive [onderwerp]```",
+            "isAdminCommand": false
+        },
+        {
+            "name": "site",
+            "description": "Stuurt een link van de **TrusHosting** site.",
+            "usage": "```!site```",
+            "isAdminCommand": false
+        },
+        {
+            "name": "ping",
+            "description": "Bekijk de ping.",
+            "usage": "```!ping```",
+            "isAdminCommand": false
+        },
+        {
+            "name": "info",
+            "description": "Wat informatie over **TrusHosting**.",
+            "usage": "```!info```",
+            "isAdminCommand": false
+        },
+        {
+            "name": "solliciteren",
+            "description": "Stuurt een link van het sollicitatie formulier.",
+            "usage": "```!solliciteren```",
+            "isAdminCommand": false
+        },
+        {
+            "name": "mute",
+            "description": "Mute een persoon van de server.",
+            "usage": "```!mute <persoon> [reden]```",
+            "isAdminCommand": true
+        },
+        {
+            "name": "unmute",
+            "description": "Unmute een persoon van de server.",
+            "usage": "```!unmute <persoon>```",
+            "isAdminCommand": true
+        },
+        {
+            "name": "kick",
+            "description": "Kick een persoon van de server.",
+            "usage": "```!kick <persoon> <reden>```",
+            "isAdminCommand": true
+        },
+        {
+            "name": "ban",
+            "description": "Ban een persoon van de server.",
+            "usage": "```!ban <persoon> <aantal dagen> <reden>```",
+            "isAdminCommand": true
+        },
+        {
+            "name": "refresh",
+            "description": "Refreshes a given command.",
+            "usage": "```!refresh <command>```",
+            "isAdminCommand": true
+        },
+        {
+            "name": "delete",
+            "description": "Delete an x ammount of messages.",
+            "usage": "```!delete <ammount>```",
+            "isAdminCommand": true
+        },
+        {
+            "name": "done",
+            "description": "Verwijder de privechat. `Werkt alleen in een privechat`",
+            "usage": "```!done```",
+            "isAdminCommand": true
+        }
+    ]
+}
