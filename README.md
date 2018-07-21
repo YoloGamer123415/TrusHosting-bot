@@ -1,5 +1,5 @@
 ## TrusHosting-bot
-This is the TrusHosting bot from the [TrusHosting compagny](http://trushosting.nl/).
+This is the TrusHosting bot from the [TrusHosting compagny](http://trushosting.nl/). [Discord](https://discord.gg/x6qcCBn)
 
 # Install
 ```cmd
